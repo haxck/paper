@@ -1,0 +1,3 @@
+# Paper
+
+A Ghost theme.
