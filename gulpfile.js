@@ -2,17 +2,17 @@ var gulp = require('gulp')
 var sass = require('gulp-sass')
 
 gulp.task('default', function(){
-  return gulp.src('./src/sass/**/*.scss')
+  return gulp.src('./src/scss/**/*.scss')
           .pipe(sass({outputStyle:'compressed'}).on('error', sass.logError))
-          .pipe(gulp.dest('./dist/css'))
+          .pipe(gulp.dest('./assets/css'))
 })
 
-gulp.task('sass', function(){
-  return gulp.src('./src/sass/**/*.scss')
+gulp.task('scss', function(){
+  return gulp.src('./src/scss/**/*.scss')
           .pipe(sass().on('error', sass.logError))
-          .pipe(gulp.dest('./dist/css'))
+          .pipe(gulp.dest('./assets/css'))
 })
 
 gulp.task('watch', function(){
-  gulp.watch('./src/sass/**/*.sass', ['sass'])
+  gulp.watch('./src/scss/**/*.scss', ['scss'])
 })
