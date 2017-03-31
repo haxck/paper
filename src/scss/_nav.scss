@@ -1,0 +1,22 @@
+.nav{
+  // display: none;
+  width: 100%;
+  padding: 0 2em;
+}
+.logo{
+  display: inline-block;
+}
+.menu{
+list-style: none;
+display: inline-block;
+}
+.nav ul li{
+  display: inline-block;
+}
+
+.main-header{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 60rem;
+}

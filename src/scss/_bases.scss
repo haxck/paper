@@ -1,0 +1,19 @@
+html {
+	font-size: 62.5%;
+	overflow-x: hidden;
+}
+
+html.menu-active,
+.menu-active body{
+	overflow-y: hidden;
+}
+
+body {
+	font: 400 2em / 1.5em 'Cardo', serif;
+	color: $color-blue-30;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	overflow-x: hidden;
+}
+

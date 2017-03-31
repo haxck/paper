@@ -1,0 +1,26 @@
+#footer {
+	position: relative;
+	z-index: 20;
+	font-family: 'Fira Sans', sans-serif;
+	line-height: 2em;
+	padding-bottom: 6em;
+}
+.credits {
+	font-size: 0.625em;
+	line-height: 1em;
+	padding: 1.1em 0;
+	overflow: auto;
+	opacity: 0.5;
+}
+.credits a {
+	color: inherit;
+}
+.credits span {
+	display: block;
+}
+.credits-left {
+	float: left;
+}
+.credits-right {
+	float: right;
+}
