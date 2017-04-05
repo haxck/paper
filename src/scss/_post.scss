@@ -1,5 +1,5 @@
 article{
-  margin: 2em;
+  margin: 2em 0.6em;
 }
 .post{
   word-wrap: break-word;
@@ -7,9 +7,9 @@ article{
 }
 
 .post-title{
-    font-size: 2em;
-    line-height: 1em;
-    font-weight: 700;
+    font-size: 1.6em;
+    line-height: 1.3em;
+    font-weight: 500;
 }
 
 .post-excerpt{
@@ -27,7 +27,7 @@ article{
 }
 .cover{
     padding: 6rem 2rem;
-    background: gray;
+    background: #ccc;
     background-repeat: no-repeat;
     background-position: center center;
     -webkit-background-size: cover;
