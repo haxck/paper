@@ -218,6 +218,7 @@ kbd {
   box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2), 0 1px 0 0 #ffffff inset; }
 
 table {
+  overflow-x: auto;
   width: 100%;
   max-width: 100%;
   margin: 2em 0;
@@ -228,9 +229,11 @@ table th,
 table td {
   position: relative;
   padding: 0.5em;
-  line-height: 0.95em;
+  line-height: 1.6em;
   text-align: left;
-  border: 1px solid #e5e4e1; }
+  border: 1px solid #e5e4e1; 
+  word-break: break-all;
+  }
 
 table th {
   font-family: 'Fira Sans', sans-serif;
@@ -271,4 +274,3 @@ img {
   max-width: 36em;
   margin: 0 auto;
 }
-
